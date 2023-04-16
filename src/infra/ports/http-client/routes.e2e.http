@@ -1,0 +1,26 @@
+### HEALTCHECK
+GET http://localhost:3000/
+Content-Type: application/json
+
+### HEALTCHECK
+GET http://localhost:3000/status
+Content-Type: application/json
+
+
+### CREATE CNH
+POST http://localhost:3000/cnh
+Content-Type: application/json
+
+{
+    "name": "IsaacDSC",
+    "birthyDay": "2023-03-15 13:24:30.679"
+}
+
+### CREATE CNH
+POST http://localhost:3000/cnh
+Content-Type: application/json
+
+{
+    "name": "IsaacDSC",
+    "birthyDay": "1997-06-12 13:24:30.679"
+}
